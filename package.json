@@ -1,0 +1,25 @@
+{
+  "name": "pi-token-lens-ttft",
+  "version": "0.1.0",
+  "description": "Persist per-request TTFT into the pi session transcript for TokenLens lens-agent.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorpiox89/pi-token-lens-ttft.git"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "tokenlens",
+    "ttft"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
